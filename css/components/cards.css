@@ -1,0 +1,92 @@
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.card-box {
+  background-color: burlywood;
+  box-shadow: 0 0 16px rgb(0 0 0 / 30%);
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.card-box img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.card-box h3 {
+  margin: 0;
+  text-align: center;
+  font-family: 'Sigmar', cursive;
+  font-size: 24px;
+}
+
+.card-box p {
+  margin: 0;
+  text-align: center;
+}
+
+.card-croissant {
+  background-color: burlywood;
+  box-shadow: 0 0 16px rgb(0 0 0 / 30%);
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.card-croissant img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.card-croissant h3 {
+  margin: 0;
+  text-align: center;
+  font-family: 'Sigmar', cursive;
+  font-size: 24px;
+}
+
+.card-croissant p {
+  margin: 0;
+  text-align: center;
+}
+
+.round-croissant {
+  background-color: burlywood;
+  box-shadow: 0 0 16px rgb(0 0 0 / 30%);
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.round-croissant img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.round-croissant h3 {
+  margin: 0;
+  text-align: center;
+  font-family: 'Sigmar', cursive;
+  font-size: 24px;
+}
+
+.round-croissant p {
+  margin: 0;
+  text-align: center;
+}
+
+.text-center {
+  padding: 10px 10px;
+  margin: 0%;
+  text-align: center;
+  font-family: 'Josefin Slab', serif;
+}

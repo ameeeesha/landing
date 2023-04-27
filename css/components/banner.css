@@ -1,0 +1,38 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  text-shadow: 0 0 8px rgb(0 0 0 / 70%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h1 {
+  backdrop-filter: blur(7px);
+  color: white;
+  font-family: 'Imbue', serif;;
+  font-size: 64px;
+  text-align: center;
+}
+
+.container p {
+  backdrop-filter: blur(10px);
+  color: white;
+  font-family: 'Old Standard TT', serif;
+  text-align: center;
+  font-size: 32px;
+}
+
+.btn-check-menu {
+  color: black;
+  background-color: white;
+  border-color: black;
+  padding: 10px 25px;
+  border-radius: 50px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  width: 40px;
+  margin: auto;
+}
